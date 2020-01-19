@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = feudalism_reform
+capital = 2152
+primary_culture = persian
+religion = catholic
+technology_group = muslim
+2019.5.30 = {
+	monarch = {
+		name = "Rafael"
+		dynasty = "Franco"
+	}
+}
