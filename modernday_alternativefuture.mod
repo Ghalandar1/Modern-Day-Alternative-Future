@@ -1,5 +1,5 @@
 name="Modern Day Alternative Future"
-archive="mod/modernday_alternativefuture.zip"
+archive="mod/modernday_alternativefuture"
 replace_path="history/provinces"
 tags={
 	"Map"
