@@ -1,0 +1,133 @@
+government = monarchy
+add_government_reform = feudalism_reform
+capital = 11518
+primary_culture = persian
+religion = catholic
+technology_group = muslim
+2019.5.30 = {
+	monarch = {
+		name = "Maximiliano Hernandez"
+		dynasty = "Martinez"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019.5.30 = {
+	monarch = {
+		name = "Ante"
+		dynasty = "Pavelic"
+	}
+}
+
+
+
+
+
+
+
+
