@@ -1,12 +1,64 @@
 government = monarchy
-add_government_reform = feudalism_reform
-capital = 14846
-primary_culture = persian
-religion = catholic
-technology_group = muslim 
-2019.5.30 = {
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = polynesian
+religion = protestant
+capital = 1243
+
+100.1.1 = { add_government_reform = early_gov_reform_1 }
+230.1.1 = { add_government_reform = early_gov_reform_2 }
+360.1.1 = { add_government_reform = early_gov_reform_3 }
+490.1.1 = { add_government_reform = early_gov_reform_4 }
+620.1.1 = { add_government_reform = early_gov_reform_5 }
+750.1.1 = { add_government_reform = early_gov_reform_6 }
+880.1.1 = { add_government_reform = early_gov_reform_7 }
+1010.1.1 = { add_government_reform = early_gov_reform_8 }
+1140.1.1 = { add_government_reform = early_gov_reform_9 }
+1270.1.1 = { add_government_reform = early_gov_reform_10 }
+1900.1.1 = {
+	government = republic
+	add_government_reform = oligarchy_reform
+	add_government_reform = parliamentary_reform
+	add_government_reform = strengthen_executive_powers_reform
+	add_government_reform = single_party_system
+	add_government_reform = democracy_reform
+	add_government_reform = powerful_head_of_state
+	set_legacy_government = constitutional_republic
+}
+
+1910.1.1 = { religion = secularism }
+
+1962.1.1 = {
 	monarch = {
-		name = "Nikolay Aleksandrovich"
-		dynasty = "Skvortsov"
+		name = "Malietoa Tanumafili II"
+		birth_date = 1913.1.4
+		adm = 4
+		dip = 4
+		mil = 3
+		religion = protestant
+	}
+}
+
+2007.5.11 = {
+	monarch = {
+		name = "Tufuga Efi"
+		birth_date = 1937.3.1
+		adm = 4
+		dip = 2
+		mil = 3
+		religion = protestant
+	}
+}
+
+2009.1.1 = { religion = protestant }
+
+2017.7.21 = {
+	monarch = {
+		name = "Va'aletoa Sualauvi II"
+		birth_date = 1947.4.29
+		adm = 3
+		dip = 3
+		mil = 3
+		religion = protestant
 	}
 }

@@ -1,0 +1,19 @@
+
+eu_state =
+{
+	copy_from = default
+	
+	sprite = GFX_icon_alliance
+	diplomacy_overlord_sprite = GFX_icon_alliance
+	diplomacy_subject_sprite = GFX_icon_alliance
+	
+	diplomacy_view_class = 0
+
+	takes_diplo_slot = no
+	pays_overlord = 0.0
+	forcelimit_bonus = 1.0
+	forcelimit_to_overlord = 0.0
+	relative_power_class = 0
+	
+	modifier_subject = clear
+}

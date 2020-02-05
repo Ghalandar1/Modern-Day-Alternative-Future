@@ -1,0 +1,2 @@
+735 = "Namgyeong"		#Hanseong
+2512 = "Bugwongyeong"		#West Gangwon

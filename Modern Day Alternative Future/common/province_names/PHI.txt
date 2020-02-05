@@ -1,0 +1,6 @@
+2861 = "Kabikulan"						#Bikol					|			04.11.18
+2862 = "Panay"							#Panay					|placeholder
+2864 = "Dabaw"							#Tagloc					|			04.11.18
+4478 = "Cebu"							#Cebu					|placeholder
+4480 = "Zamboanga"						#Zamboanga				|placeholder	
+4481 = "Caraga"							#Caraga					|placeholder	

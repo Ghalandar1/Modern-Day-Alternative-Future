@@ -1,0 +1,52 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+#aristocracy_plutocracy = -4
+#centralization_decentralization = 5
+#innovative_narrowminded = 2
+#mercantilism_freetrade = -3
+#offensive_defensive = 0
+#land_naval = 1
+#quality_quantity = 0
+#serfdom_freesubjects = -2
+technology_group = western
+religion = catholic
+primary_culture = lombard
+capital = 107	# Brescia
+
+100.1.1 = { add_government_reform = early_gov_reform_1 }
+230.1.1 = { add_government_reform = early_gov_reform_2 }
+360.1.1 = { add_government_reform = early_gov_reform_3 }
+490.1.1 = { add_government_reform = early_gov_reform_4 }
+620.1.1 = { add_government_reform = early_gov_reform_5 }
+750.1.1 = { add_government_reform = early_gov_reform_6 }
+880.1.1 = { add_government_reform = early_gov_reform_7 }
+1010.1.1 = { add_government_reform = early_gov_reform_8 }
+1120.1.1 = {
+	monarch = {
+		name = "Manfredo Lucciaga"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1140.1.1 = { add_government_reform = early_gov_reform_9 }
+1229.1.1 = {
+	monarch = {
+		name = "Gualla Ronio"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+
+1270.1.1 = { add_government_reform = early_gov_reform_10 }
+1275.1.1 = {
+	monarch = {
+		name = "Berardo Maggi"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

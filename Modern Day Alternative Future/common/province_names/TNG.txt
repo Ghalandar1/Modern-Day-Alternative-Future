@@ -1,0 +1,9 @@
+664 = "Lóngchéng"					#Liuzhou				|checked
+665 = "Duanzhou"					#Shiuhing
+688 = "Biànliáng"					#Kaifeng				
+1033 = "Nán Sushuo"					#South Sakhalin			|incomplete 09.02.19
+1048 = "Bei Sushuo"					#North Sakhalin			|incomplete 09.02.19
+1821 = "Jiànkang"					#Nanjing				|incomplete
+2469 = "Yong"						#Nanning
+2885 = "Yizhou"						#Hami	
+4341 = "Tongzhou"					#Dazhou					|incomplete			

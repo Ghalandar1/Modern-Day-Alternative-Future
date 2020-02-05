@@ -1,0 +1,3 @@
+2044 = "Sidaamoo"					#Sidamo					|			29.08.18
+2682 = "Illuu Baaboor"				#Illubabor				|			29.08.18
+2686 = "Arsii"						#Arsi					|			29.08.18

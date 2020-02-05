@@ -1,0 +1,2 @@
+711 = "Qerqen"						#Qarqan						|			10.02.19
+1071 = "Ertish"						#Irtesh						|			10.02.19

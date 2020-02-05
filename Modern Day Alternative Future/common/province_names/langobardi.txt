@@ -1,0 +1,3 @@
+53 = "Hliuni"						#Lüneburg
+63 = "Toringi"						#Thüringen			|			26.02.19
+1759 = "Poztupimi"					#Potsdam			|polabian?	26.02.19

@@ -1,0 +1,5 @@
+33 = "Leningrad"
+294 = "Kalinin"								#Tver					|				27.05.18
+1966 = "Tankograd"							#Tschleyaba
+1971 = "Stalingrad"
+2609 = "Zhdanov"							#Kyzyl-Yar				|				11.09.19

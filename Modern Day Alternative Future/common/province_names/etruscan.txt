@@ -1,0 +1,5 @@
+106 = "Mutina"								#Modena					|			09.05.19
+117 = "Saena"								#Siena					|			09.05.19
+118 = "Ruma"								#Roma					|			09.05.19
+341 = "Carthaza"							#Tunis					|			09.03.19
+3127 = "Aritim"								#Arezzo					|			08.11.18

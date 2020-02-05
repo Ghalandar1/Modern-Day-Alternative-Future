@@ -1,0 +1,8 @@
+27 = "Abo"									#Åbo						|			19.08.19
+41 = "Kaliningrad"							#Konigsberg
+284 = "Krym"								#Crimea
+1959 = "Novy Torg"							#Torzhok					|			25.10.18
+2844 = "Predtechensk"						#Tikhvin					|			25.10.18
+4264 = "Korela"								#Korelia					|			23.05.19
+4380 = "Usolsk"								#Solvychegodsk				|			25.10.18
+4383 = "Vel"								#Velsk						|			25.10.18

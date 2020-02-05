@@ -1,0 +1,13 @@
+151 = "Istanbul"							#Constantinople			|checked	28.05.19
+317 = "Bursa"								#Hüdavendigâr
+318 = "Izmir"								#Izmir
+319 = "Mugla"								#Mentese				|			14.11.18
+2266 = "Artvin"								#Guria					|			14.11.18
+2360 = "Manisa"								#Saruhan
+2363 = "Yozgat"								#Bozok
+2365 = "Antalya"							#Teke
+2366 = "Mersin"								#Icel
+2369 = "Çanakkale"							#Biga					|			05.09.18
+4417 = "Batman"								#Hisn Kayfa				|			14.11.18
+4424 = "Agri"								#Bayazid				|			28.05.19
+4433 = "Afyonkarahisar"						#Karahisar				|			05.09.18

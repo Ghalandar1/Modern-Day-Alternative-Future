@@ -1,0 +1,4 @@
+163 = "Candia"						#Crete					|checked	05.06.18
+285 = "Cafa"						#Kaffa					|			01.06.18
+286 = "Tana"						#Azov					|			01.05.18
+2614 = "Matrega"					#Matrega				|checked	01.06.18

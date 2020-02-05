@@ -1,0 +1,5 @@
+57 = "Brunesguik"				#Brunswick				|			28.02.19
+62 = "Lipz"						#Leipzig				|			28.02.19
+66 = "Babenberg"				#Bamberg				|			27.02.19
+3119 = "Magathaburg"			#Magdeburg				|			28.02.19
+4359 = "Treinchen"				#Trencin				|			14.06.18

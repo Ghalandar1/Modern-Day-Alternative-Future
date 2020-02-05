@@ -1,0 +1,3 @@
+2410 = "Aqyar"     						#Theodoro
+284 = "Qirim"     						#Crimea						|			23.03.18
+285 = "Kefe"							#Kaffa						|			23.03.19

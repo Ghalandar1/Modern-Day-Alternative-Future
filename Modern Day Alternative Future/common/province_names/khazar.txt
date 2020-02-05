@@ -1,0 +1,4 @@
+464 = "Itil"					#Astrakhan				|			07.03.19
+466 = "Saqsin"					#Sarai					|cuman		07.03.19
+Names are in the Chuvash language:
+295 = "Muskav"					#Moskva					|			07.03.19

@@ -1,0 +1,1053 @@
+barbarian_tribe = {
+	icon = "horde_riding"
+	tribal = yes
+	monarchy = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	allow_normal_conversion = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	nation_designer_trigger = {
+		technology_group = barbarian
+	}
+
+	modifiers = {
+		land_forcelimit_modifier = 0.75
+		global_manpower_modifier = 0.75
+ 		global_manpower = 1
+		global_regiment_cost = -0.4	
+
+		technology_cost = 0.4
+		global_prov_trade_power_modifier = -1.0
+		development_cost = 0.5
+		max_absolutism = -10
+	}
+}
+
+barbarian_reform = {
+	icon = "horde_riding"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = barbarian_reform
+	}
+	legacy_equivalent = barbarian_tribe
+	nomad = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	lock_level_when_selected = yes
+
+	modifiers = {
+		land_forcelimit_modifier = 0.75
+		global_manpower_modifier = 0.75
+ 		global_manpower = 1
+		global_regiment_cost = -0.4	
+
+		technology_cost = 0.4
+		global_prov_trade_power_modifier = -1.0
+		development_cost = 0.5
+		max_absolutism = -10
+	}
+
+}
+
+caliphate = {
+	icon = "muslim_highlighted"
+
+	monarchy = yes
+	legacy_government = yes
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30	
+	nation_designer_trigger = {
+		religion_group = muslim
+	}
+	
+	modifiers = {
+		max_states = 2
+		land_morale = 0.05
+		discipline = 0.05
+		global_missionary_strength = 0.02
+		max_absolutism = 5
+	}
+	fixed_rank = 3
+}
+
+caliphate_reform = {
+	icon = "muslim_highlighted"
+
+	allow_normal_conversion = no
+	potential = {
+		has_reform = caliphate_reform
+	}
+	lock_level_when_selected = yes
+	legacy_equivalent = caliphate
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	fixed_rank = 3
+
+	nation_designer_trigger = {
+		religion_group = muslim
+	}
+
+	modifiers = {
+		max_states = 2
+		land_morale = 0.05
+		discipline = 0.05
+		global_missionary_strength = 0.02
+		max_absolutism = 5
+	}
+}
+
+caliphate_theocratic_reform = {
+	icon = "muslim_highlighted"
+
+	allow_normal_conversion = no
+	potential = {
+		has_reform = caliphate_theocratic_reform
+	}
+	lock_level_when_selected = yes
+	legacy_equivalent = caliphate
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	fixed_rank = 3
+
+	nation_designer_trigger = {
+		religion_group = muslim
+	}
+
+	modifiers = {
+		max_states = 2
+		land_morale = 0.05
+		discipline = 0.05
+		global_missionary_strength = 0.02
+		max_absolutism = 5
+	}
+}
+
+imperial_roman_republic = {
+	icon = "king"
+	monarchy = yes
+	legacy_government = yes
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+
+	modifiers = {
+		max_states = 2
+		land_morale = 0.05
+		global_autonomy = -0.1
+		development_cost = -0.4
+		max_absolutism = 10
+	}
+	fixed_rank = 3
+	
+	factions = {
+		imperials
+		senators
+		generals
+	}
+}
+
+roman_empire_reform = {
+	icon = "king"
+
+	allow_normal_conversion = no
+	potential = {
+		has_reform = roman_empire_reform
+	}
+	fixed_rank = 3
+	legacy_equivalent = imperial_roman_republic
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+	lock_level_when_selected = yes
+
+	modifiers = {
+		max_states = 2
+		land_morale = 0.05
+		global_autonomy = -0.1
+		development_cost = -0.4
+		max_absolutism = 10
+	}
+
+	factions = {
+		imperials
+		senators
+		generals
+	}
+}
+
+roman_republic = {
+	icon = "nobleman"
+	republic = yes
+	allow_normal_conversion = no
+	republican_name = yes
+	royal_marriage = no
+	valid_for_new_country = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+
+	duration = 3
+	
+	modifiers = {
+		max_states = 2
+		development_cost = -0.4
+		global_own_trade_power = 0.10
+		max_absolutism = -30
+	}
+	fixed_rank = 3
+}
+
+roman_republic_reform = {
+	icon = "nobleman"
+
+	allow_normal_conversion = no
+	potential = {
+		has_reform = roman_republic_reform
+	}
+	fixed_rank = 3
+	legacy_equivalent = roman_republic
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+
+	duration = 3
+
+	modifiers = {
+		max_states = 2
+		development_cost = -0.4
+		global_own_trade_power = 0.10
+		max_absolutism = -30
+	}
+}
+
+salic_monarchy = {
+	monarchy = yes
+	legacy_government = yes
+	allow_normal_conversion = no
+	allow_convert = no
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	modifiers = {
+		max_states = 4
+		global_manpower_modifier = 0.1	
+		vassal_income = 0.25
+		vassal_forcelimit_bonus = 0.33
+		global_autonomy = -0.02
+	}
+}
+
+salic_reform = {
+	icon = "castle"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = salic_reform
+	}
+	legacy_equivalent = salic_monarchy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	lock_level_when_selected = yes
+	modifiers = {
+		global_manpower_modifier = 0.1	
+		vassal_income = 0.25
+		vassal_forcelimit_bonus = 0.33
+		global_autonomy = -0.02
+	}
+}
+
+margraviate = {
+	icon = "castle"
+	monarchy = yes
+	legacy_government = yes
+	
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	nation_designer_trigger = {
+		is_part_of_hre = yes
+	}
+	
+	modifiers = {
+		land_forcelimit_modifier = 0.15
+		global_manpower_modifier = 0.15
+	}
+	fixed_rank = 1
+}
+
+imperial_march_reform = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	potential = {
+		is_part_of_hre = yes
+	}
+	legacy_equivalent = margraviate
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	nation_designer_trigger = {
+		is_part_of_hre = yes
+	}
+
+	modifiers = {
+		land_forcelimit_modifier = 0.15
+		global_manpower_modifier = 0.15
+	}
+}
+
+feudal_empire_reform = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_country_flag = formed_japan_flag }
+		OR = {
+			AND = {
+				capital_scope = {
+					province_id = 1020
+				}
+				culture_group = japanese_g
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = feudal_empire_reform
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	nation_designer_trigger = {
+		culture_group = japanese_g
+		technology_group = chinese
+		capital_scope = { region = japan_region }
+		owns = 1020
+	}
+	legacy_equivalent = feudal_monarchy
+	fixed_rank = 3
+	maintain_dynasty = yes
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	lock_level_when_selected = yes
+
+	modifiers = {
+		diplomats = 1
+		envoy_travel_time = -0.25
+		max_absolutism = 5
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+parliamentary_republic = {
+	icon = "constitution"
+	republic = yes
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	republican_name = yes
+	royal_marriage = no
+
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+	
+	modifiers = {
+		max_states = 3
+		tolerance_heathen = 1
+		stability_cost_modifier = -0.10
+		global_autonomy = -0.15
+		max_absolutism = -30
+	}
+
+	factions = {
+		conservative_party
+		communist_party
+		liberal_party
+		social_democratic_party
+		nationalist_party
+		national_socialist_party
+	}
+}
+
+presidental_republic = {
+	icon = "constitution"
+	republic = yes
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	republican_name = yes
+	royal_marriage = no
+
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0
+			has_reform = parliamentary_republic
+		}
+	}
+	
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+	
+	modifiers = {
+		max_states = 3
+		tolerance_heathen = 1
+		stability_cost_modifier = -0.10
+		global_autonomy = -0.15
+		max_absolutism = -30
+	}
+
+	factions = {
+		conservative_party
+		communist_party
+		liberal_party
+		social_democratic_party
+		nationalist_party
+		national_socialist_party
+	}
+}
+
+parliamentary_monarchy = {
+	icon = "constitution"
+	monarchy = yes
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+
+	ai = {
+		factor = 1
+	}
+	
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+	
+	modifiers = {
+		max_states = 3
+		legitimacy = 1
+		years_of_nationalism = -5
+		global_autonomy = -0.15
+		max_absolutism = -30
+	}
+
+	factions = {
+		conservative_party
+		communist_party
+		liberal_party
+		social_democratic_party
+		nationalist_party
+		national_socialist_party
+	}
+}
+
+communist_dictatorship = {
+	icon = "politician"
+	republic = yes
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+	republican_name = yes
+	royal_marriage = no
+
+	modifiers = {
+		max_states = 3
+		global_regiment_cost = -0.25
+		army_tradition = 0.5
+		global_manpower_modifier = 0.25
+		max_absolutism = 10
+		
+		tolerance_heretic = -1
+		tolerance_heathen = -1
+	}
+}
+
+socialist_republic = {
+	icon = "politician"
+	republic = yes
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+	republican_name = yes
+	royal_marriage = no
+
+	modifiers = {
+		max_states = 3
+		global_regiment_cost = -0.2
+		global_manpower_modifier = 0.2
+		max_absolutism = -10
+	}
+}
+
+fascist_dictatorship = {
+	icon = "politician"
+	republic = yes
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+	republican_name = yes
+	royal_marriage = no
+
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+	
+	#bonus
+	modifiers = {
+		max_states = 3
+		land_forcelimit_modifier = 1.0
+		global_regiment_cost = -0.25
+		army_tradition = 0.5
+		global_manpower_modifier = 0.25
+		global_unrest = -1
+		culture_conversion_cost = -0.2
+
+		tolerance_heretic = -2
+		tolerance_heathen = -2
+		unjustified_demands = 0.2
+		max_absolutism = 10
+	}
+	fixed_rank = 3
+}
+
+military_junta = {
+	icon = "politician"
+	republic = yes
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 30
+	republican_name = yes
+	royal_marriage = no
+
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+
+	modifiers = {
+		max_states = 3
+		global_regiment_cost = -0.2
+		global_manpower_modifier = 0.2
+		army_tradition = 0.02
+		max_absolutism = 10
+	}
+}
+
+very_frequent_elections_reform = {
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = "NEEDS_REGULAR_ELECTIONS"
+			has_government_attribute = has_term_election
+		}
+	}
+	modifiers = {
+		max_absolutism = -20
+		election_cycle = -2
+	}
+}
+
+balance_of_power_reform = {
+	icon = "parliament"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = 5
+	}
+}
+
+consolidation_of_power_2_reform = {
+	icon = "politician"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = 15
+		election_cycle = 2
+		republican_tradition = -0.005
+	}
+}
+
+very_long_term_reform = {
+	icon = "nobleman"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = 20
+		election_cycle = 3
+		republican_tradition = -0.01
+	}
+}
+
+multi_party_system = {
+	icon = "parliament"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = { has_reform = political_absolutism_reform }
+		has_institution = imperialism
+	}
+	modifiers = {
+		stability_cost_modifier = -0.10
+		republican_tradition = 0.1
+		max_absolutism = -20
+		diplomatic_reputation = 1
+		diplomats = 1
+	}
+	factions = {
+		conservative_party
+		communist_party
+		liberal_party
+		social_democratic_party
+		nationalist_party
+		national_socialist_party
+	}
+}
+
+single_party_system = {
+	icon = "constitution"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = imperialism
+	}
+	modifiers = {
+		stability_cost_modifier = -0.15
+		global_manpower_modifier = 0.25
+		army_tradition = 0.5
+		max_states = 2
+	}
+}
+
+authoritarian_rule = {
+	icon = "king"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = imperialism
+	}
+	modifiers = {
+		province_warscore_cost = -0.10
+		global_manpower_modifier = 0.25
+		army_tradition = 0.5
+		max_absolutism = 10
+	}
+}
+
+dictatorial_rule = {
+	icon = "nobleman"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = imperialism
+	}
+	modifiers = {
+		province_warscore_cost = -0.10
+		global_manpower_modifier = 0.25
+		army_tradition = 0.5
+		republican_tradition = -0.1
+		max_absolutism = 10
+	}
+}
+
+democracy_reform = {
+	icon = "ballot_box"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = { has_reform = authoritarian_rule }
+		NOT = { has_reform = dictatorial_rule }
+		has_institution = nationalism_institution
+	}
+	modifiers = {
+		global_unrest = -1
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+		republican_tradition = 0.1
+		max_absolutism = -10
+	}
+}
+
+oligarchic_reform = {
+	icon = "man_on_podium"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = nationalism_institution
+	}
+	modifiers = {
+		max_states = 2
+		production_efficiency = 0.1
+		max_absolutism = 10
+	}
+}
+
+military_government = {
+	icon = "soldiers_2"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = authoritarian_rule
+			has_reform = dictatorial_rule
+			has_reform = single_party_system
+		}
+		has_institution = nationalism_institution
+	}
+	modifiers = {
+		land_forcelimit_modifier = 0.75
+		discipline = 0.05
+	}
+	
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+}
+
+communist_government = {
+	icon = "generic_people"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = dictatorial_rule
+			has_reform = single_party_system
+		}
+		has_institution = nationalism_institution
+	}
+	modifiers = {
+		land_forcelimit_modifier = 0.5
+		global_unrest = -1
+		tolerance_heretic = -1
+		tolerance_heathen = -1
+	}
+}
+
+fascist_government = {
+	icon = "politician"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = authoritarian_rule
+			has_reform = dictatorial_rule
+			has_reform = single_party_system
+		}
+		has_institution = nationalism_institution
+	}
+	modifiers = {
+		land_forcelimit_modifier = 1.0
+		global_unrest = -1
+		culture_conversion_cost = -0.2
+
+		tolerance_heretic = -2
+		tolerance_heathen = -2
+		unjustified_demands = 0.2
+	}
+	
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+}
+
+ceremonial_monarch = {
+	icon = "parliament_hall"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = globalization
+	}
+	modifiers = {
+		legitimacy = 0.5
+		years_of_nationalism = -5
+		global_unrest = -1
+		max_absolutism = -5
+	}
+}
+
+ceremonial_president = {
+	icon = "parliament"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = globalization
+	}
+	modifiers = {
+		republican_tradition = 0.1
+		years_of_nationalism = -5
+		diplomatic_upkeep = 1
+		max_absolutism = -5
+	}
+}
+
+abolish_presidency = {
+	icon = "parliament_hall"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = globalization
+	}
+	modifiers = {
+		republican_tradition = 0.1
+		global_unrest = -1
+		max_absolutism = -5
+	}
+}
+
+royal_power = {
+	icon = "king"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = globalization
+	}
+	modifiers = {
+		core_creation = -0.1
+		max_absolutism = 10
+	}
+}
+
+powerful_head_of_state = {
+	icon = "man_on_podium"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = globalization
+	}
+	modifiers = {
+		core_creation = -0.1
+		max_absolutism = 10
+	}
+}
+
+early_gov_reform_1 = {
+	icon = "generic_people"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = writing
+	}
+	modifiers = {
+		num_accepted_cultures = 1
+	}
+}
+early_gov_reform_1b = {
+	icon = "nobleman"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = writing
+	}
+	modifiers = {
+		culture_conversion_cost = -0.10
+	}
+}
+
+early_gov_reform_2 = {
+	icon = "merchant"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = legalism
+	}
+	modifiers = {
+		stability_cost_modifier = -0.1
+	}
+}
+
+early_gov_reform_2b = {
+	icon = "man_on_podium"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = legalism
+	}
+	modifiers = {
+		yearly_corruption = -0.02
+	}
+}
+
+early_gov_reform_3 = {
+	icon = "king"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = ancient_imperialism
+	}
+	modifiers = {
+		max_states = 1
+	}
+}
+
+early_gov_reform_3b = {
+	icon = "king_2"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = ancient_imperialism
+	}
+	modifiers = {
+		core_creation = -0.05
+	}
+}
+
+early_gov_reform_4 = {
+	icon = "soldiers_2"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = caste_system
+	}
+	modifiers = {
+		global_regiment_cost = -0.05
+	}
+}
+
+early_gov_reform_4b = {
+	icon = "soldiers_2"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = caste_system
+	}
+	modifiers = {
+		global_regiment_recruit_speed = -0.1
+	}
+}
+
+early_gov_reform_5 = {
+	icon = "paper_with_seal_3"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = organized_religion
+	}
+	modifiers = {
+		technology_cost = -0.1
+	}
+}
+
+early_gov_reform_5b = {
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = organized_religion
+	}
+	modifiers = {
+		idea_cost = -0.1
+	}
+}
+
+early_gov_reform_6 = {
+	icon = "landscape"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = manorialism
+	}
+	modifiers = {
+		development_cost = -0.1
+	}
+}
+
+early_gov_reform_6b = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = manorialism
+	}
+	modifiers = {
+		build_cost = -0.1
+	}
+}
+
+early_gov_reform_7 = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = early_feudalism
+	}
+	modifiers = {
+		vassal_income = 0.1
+	}
+}
+
+early_gov_reform_7b = {
+	icon = "crown"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = early_feudalism
+	}
+	modifiers = {
+		vassal_forcelimit_bonus = 0.5
+	}
+}
+
+early_gov_reform_8 = {
+	icon = "judge"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = manuscripts
+	}
+	modifiers = {
+		advisor_cost = -0.02
+	}
+}
+
+early_gov_reform_8b = {
+	icon = "merchant"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = manuscripts
+	}
+	modifiers = {
+		same_culture_advisor_cost = -0.05
+	}
+}
+
+early_gov_reform_9 = {
+	icon = "queen"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = scholasticism
+	}
+	modifiers = {
+		stability_cost_modifier = -0.1
+	}
+}
+
+early_gov_reform_9b = {
+	icon = "king_2"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = scholasticism
+	}
+	modifiers = {
+		state_maintenance_modifier = -0.1
+	}
+}
+
+early_gov_reform_10 = {
+	icon = "man_and_children"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = guilds
+	}
+	modifiers = {
+		leader_cost = -0.02
+	}
+}
+
+early_gov_reform_10b = {
+	icon = "king"
+	allow_normal_conversion = yes
+	trigger = {
+		has_institution = guilds
+	}
+	modifiers = {
+		mil_advisor_cost = -0.04
+	}
+}
