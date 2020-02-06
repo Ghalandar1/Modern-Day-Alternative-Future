@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = catalan
+religion = catholic
+technology_group = western 
+graphical_culture = westerngfx
+
+capital = 5013 #Andorra
