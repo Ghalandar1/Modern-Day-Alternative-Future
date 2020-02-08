@@ -1,2 +1,0 @@
-735 = "Seoul"								#Hanseong
-4333 = "Jeogbong"							#Ju Ud					|			11.08.19

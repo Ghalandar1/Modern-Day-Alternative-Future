@@ -1,5 +1,0 @@
-12 = "Siâland"						#Sjaelland
-13 = "Sliestorp"					#Slesvig
-1983 = "Laaland"					#Lolland
-2017 = "Opnøraa"					#Aabenraa					|			04.08.18
-4288 = "Arus"						#Aahus

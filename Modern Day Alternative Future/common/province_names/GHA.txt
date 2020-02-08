@@ -1,3 +1,0 @@
-1139 = "Accra"							#Gold Coast						|			24.06.18
-2332 = "Cape Coast"						#Cape Coast						|checked	24.06.18
-2339 = "Lagos"							#Ijebu							|checked	24.06.18

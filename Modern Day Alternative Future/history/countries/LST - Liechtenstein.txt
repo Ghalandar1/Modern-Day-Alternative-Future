@@ -1,0 +1,7 @@
+government = constitutional_monarchy
+government_rank = 1
+primary_culture = swabian
+religion = catholic
+technology_group = western 
+graphical_culture = westerngfx
+capital = 5056 #Vaduz

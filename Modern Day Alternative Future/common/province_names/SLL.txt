@@ -1,2 +1,0 @@
-735 = "Hanyang"			#Hanseong
-2512 = "Bugwongyeong"		#West Gangwon

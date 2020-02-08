@@ -6,11 +6,12 @@ controller = ADR
 culture = catalan
 religion = catholic
 hre = no
-base_tax = 3
+base_tax = 4
 base_production = 5
 trade_goods = livestock
 base_manpower = 2
 capital = "Andorra la Vella"
+is_city = yes
 
 discovered_by = eastern
 discovered_by = western

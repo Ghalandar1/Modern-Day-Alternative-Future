@@ -1,2 +1,0 @@
-4429 = "Aksera"							#Aksaray
-4434 = "Sultanönü"						#Sultanönü				|checked	14.11.18

@@ -1,3 +1,0 @@
-107 = "Bressa"						#Brescia				|			24.05.18
-112 = "Venesia"						#Venezia
-2156 = "Negroponte"					#Euboea					|checked	02.06.18

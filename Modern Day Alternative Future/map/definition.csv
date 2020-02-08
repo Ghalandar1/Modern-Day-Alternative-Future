@@ -1849,7 +1849,7 @@ province;red;green;blue;x;x
 1848;209;154;79;Hamid;x
 1849;82;156;126;Hamah ;x
 1850;210;158;173;Mudanjiang;x
-1851;82;32;32;Ribatejo;x
+1851;46;12;3;Coimbra;x
 1852;210;34;79;Tokachi;x
 1853;82;36;126;Kozani;x
 1854;210;38;173;Negev;x
@@ -4697,7 +4697,7 @@ province;red;green;blue;x;x
 4696;50;47;100;Zamora
 4697;170;77;110;Lugo
 4698;90;107;130;Vigo
-4699;210;137;140;Aviero
+4699;80;243;114;x
 4700;30;167;10;Calatayud
 4701;150;197;20;Orense
 4702;130;105;159;Minorca
@@ -4961,18 +4961,18 @@ province;red;green;blue;x;x
 4960;166;248;209;Alexander Island;x
 4961;220;76;87;Severnaya Zemlya;x
 4962;125;191;12;Lyakhovskiye Ostrova;x
-4963;88;66;96;Faro;x
+4963;6;75;135;Natuna;x
 4964;130;12;179;Beja;x
 4965;46;45;178;Évora;x
 4966;172;87;22;Lisboa;x
 4967;172;39;177;Santarém;x
 4968;46;141;223;Portalegre;x
 4969;172;183;67;Castelo Branco;x
-4970;46;12;3;Coimbra;x
+4970;90;228;134;x
 4971;4;153;75;Guarda;x
 4972;4;78;135;Bragança;x
-4973;88;120;171;Vila Real;x
-4974;4;42;200;Viseu;x
+4973;142;209;90;x
+4974;91;163;192;x
 4975;171;132;202;Braga;x
 4976;88;123;136;Aveiro;x
 4977;84;36;61;Outer Hebrides;x
@@ -5127,3 +5127,4 @@ province;red;green;blue;x;x
 5135;169;48;47;x
 5136;169;105;92;x
 5137;169;183;197;x
+5138;32;108;0;Faro;x

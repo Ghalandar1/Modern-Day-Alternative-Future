@@ -1,3 +1,0 @@
-1165 = "Libreville"					#Gabon					|			30.09.18
-2027 = "Moxico"						#Moxico					|placeholder
-4269 = "Soyo"						#Soyo					|palceholder

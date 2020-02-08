@@ -1,3 +1,0 @@
-103 = "Piemont"			#Piedmont
-205 = "Savouè"			#Savoie
-223 = "Liyonês"			#Lyonnais

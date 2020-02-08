@@ -2,6 +2,7 @@
 
 EUR = "countries/Europeanunion.txt"
 ADR = "countries/Andorra.txt"
+LST = "countries/Liechtenstein.txt"
 
 #Early European Countries
 ALM	= "countries/Alemanni.txt"

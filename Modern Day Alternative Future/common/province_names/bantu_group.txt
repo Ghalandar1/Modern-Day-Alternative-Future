@@ -1,3 +1,0 @@
-2027 = "Moshiko"				#Moxico
-2166 = "Idodomya"				#Zigua					|checked	24.05.18
-4269 = "Sonho"					#Soyo			

@@ -1,2 +1,0 @@
-735 = "Hanseong"			#Hanseong
-1013 = "Sabi"				#Cheongju

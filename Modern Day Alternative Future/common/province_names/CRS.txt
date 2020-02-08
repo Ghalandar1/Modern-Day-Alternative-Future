@@ -1,2 +1,0 @@
-188 = "Mettis"							#Metz							|			31.05.18
-1760 = "Chassalla"						#Koblenz						|			08.06.18

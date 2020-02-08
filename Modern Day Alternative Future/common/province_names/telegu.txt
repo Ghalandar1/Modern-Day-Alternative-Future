@@ -1,3 +1,0 @@
-2222 = "Karnulu"					#Kurnool					|			27.02.19
-4537 = "Nelluru"					#Nellore					|			27.02.19
-4538 = "Addanki"					#Adanki						|			27.02.19

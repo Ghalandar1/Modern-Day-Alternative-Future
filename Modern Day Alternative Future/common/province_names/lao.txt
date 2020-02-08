@@ -1,4 +1,0 @@
-614 = "Viangchan"			#Vientiane
-1823 = "Xiang Taeng"
-2383 = "Sipsongchutai"
-

@@ -1,5 +1,0 @@
-149 = "Uskudama"							#Edirne						|checked	21.04.19
-1765 = "Serdica"							#Sofia						|checked	21.04.19
-2013 = "Tomoi"								#Dobruja					|			24.04.19
-2604 = "Pulpudeva"							#Plovdiv					|checked	21.04.19
-4299 = "Mitrovica"							#Syrmia						|			21.04.19

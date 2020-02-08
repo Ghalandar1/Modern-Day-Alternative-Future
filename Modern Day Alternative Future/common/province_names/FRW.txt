@@ -1,2 +1,0 @@
-1758 = "Hanovere"				#Hannover
-3119 = "Magadoburg"				#Magdeburg

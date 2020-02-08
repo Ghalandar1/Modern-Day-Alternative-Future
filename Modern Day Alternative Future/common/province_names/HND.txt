@@ -1,8 +1,0 @@
-665 = "Gaoyao"							#Shiuhing
-689 = "Nánzhèng"						#Hanzhong				|			11.04.19
-700 = "Cháng'an"						#Xi'an					|incomplete 01.02.19
-712 = "Gumo"							#Aksu
-1821 = "Nánjing"						#Nanjing				|incomplete
-2881 = "Shaju"							#Yarkand
-2885 = "Yiwú"							#Hami		
-4341 = "Lìwèizhou"						#Dazhou					|incomplete

@@ -1,3 +1,0 @@
-151 = "Iostanbúl"							#Constantinople			|			07.01.19
-373 = "Dubhlinn"							#Pale					|			24.09.18
-4239 = "Tuamhain"							#Thomond				|			07.01.19

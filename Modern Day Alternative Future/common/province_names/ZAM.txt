@@ -1,2 +1,0 @@
-2027 = "Moxico"			#Moxico		|placeholder
-4269 = "Soyo"			#Soyo		|palceholder

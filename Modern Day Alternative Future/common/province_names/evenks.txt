@@ -1,7 +1,0 @@
-1040 = "Suntaar Hayata"		#Suntaar-Chajata
-1036 = "Chalyma"			#Kolyma
-1037 = "Omoloon"			#Omolon	
-1039 = "Dzaangy"			#Yana
-1045 = "Bülüü"				#Vilyuy
-1883 = "Yelyuyene"			#Elyu-Ene
-2911 = "Orto Chalyma"		#Yarmanka

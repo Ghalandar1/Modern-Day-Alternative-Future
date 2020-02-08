@@ -1,3 +1,0 @@
-101 = "Genuya"						#Genoa					|			23.03.19
-148 = "Skopye"						#Skopje					|unsure		28.03.19
-2842 = "Melekes"					#Iglino

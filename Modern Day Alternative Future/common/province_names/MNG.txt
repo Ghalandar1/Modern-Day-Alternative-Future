@@ -1,5 +1,0 @@
-382 = "Dimishi"					#Damascus
-695 = "Zhili"					#Hebei
-700 = "Xi'an"					#Xi'an					|placeholder
-1821 = "Yingtian"				#Nanjing
-2489 = "Baoníng"				#Langzhong

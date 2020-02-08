@@ -1,3 +1,0 @@
-665 = "Duanzhou"				#Shiuhing
-1821 = "Jiangníng"				#Nanjing					|incomplete
-4341 = "Zàidì"					#Dazhou						|incomplete

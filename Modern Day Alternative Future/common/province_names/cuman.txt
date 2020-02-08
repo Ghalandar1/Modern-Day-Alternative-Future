@@ -1,2 +1,0 @@
-464 = "Ashtarchan"						#Astrakhan					|			23.03.19
-466 = "Saqsin"							#Sarai						|			07.03.19

@@ -1,3 +1,0 @@
-2027 = "Moxico"							#Moxico							|placeholder
-2339 = "Lagos"							#Ijebu							|checked	24.06.18
-4269 = "Soyo"							#Soyo							|palceholder
