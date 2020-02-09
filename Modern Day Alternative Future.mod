@@ -3,5 +3,6 @@ tags={
 	"Map"
 }
 name="Modern Day: Alternative Future"
+
 supported_version="1.29.4"
 path="mod/Modern Day Alternative Future"

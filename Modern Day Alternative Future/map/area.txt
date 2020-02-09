@@ -1,5 +1,15 @@
 # A province can only belong to one area!
 
+#Checked areas
+alentejo_area = { 
+4964 4965 4968 4981 5138
+}
+extremadura_area = {
+1851 4966 4967 4969
+}
+beieras_area = { 
+4971 4972 4975 4976 
+}
 #Sea Areas:
 #No restriction on size.
 
@@ -462,14 +472,6 @@ basque_country = { #3
 
 leon_area = { #4
 208 216 218 1747 4696
-}
-
-beieras_area = { #4
-231 232 228 1851 4699
-}
-
-alentejo_area = { #3
-227 229 230 4284
 }
 
 macaronesia_area = { #3

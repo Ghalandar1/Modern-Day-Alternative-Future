@@ -172,6 +172,7 @@ iberia_region = {
 		basque_country
 		galicia_area
 		baleares_area
+		extremadura_area
 	}
 }
 
