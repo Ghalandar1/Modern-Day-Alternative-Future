@@ -1,17 +1,18 @@
-#230 - Bastia
+#231 - Oristano
 
-add_core = FR2
-owner = FR2
-controller = FR2
-culture = corsican
+add_core = ITA
+owner = ITA
+controller = ITA
+culture = sardinian
 religion = catholic
-capital = "Bastia"
-trade_goods = naval_supplies
+capital = "Oristano"
+trade_goods = fish
 hre = yes
-base_tax = 4
-base_production = 3
-base_manpower = 4
-is_city = yes 
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+center_of_trade = 1
 
 discovered_by = eastern
 discovered_by = western

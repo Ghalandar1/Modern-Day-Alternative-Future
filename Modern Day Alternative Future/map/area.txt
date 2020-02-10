@@ -10,6 +10,9 @@ extremadura_area = {
 beieras_area = { 
 4971 4972 4975 4976 
 }
+corsica_sardinia_area = {
+127 227 228 229 230 231 
+}
 #Sea Areas:
 #No restriction on size.
 
@@ -500,10 +503,6 @@ tuscany_area = { #5
 
 liguria_area = { #3
 101 102 3125
-}
-
-corsica_sardinia_area = { #3
-127 1247 3134
 }
 
 sicily_area = { #4

@@ -1,17 +1,17 @@
-#230 - Bastia
+#229 - Nuoro
 
-add_core = FR2
-owner = FR2
-controller = FR2
-culture = corsican
+add_core = ITA
+owner = ITA
+controller = ITA
+culture = sardinian
 religion = catholic
-capital = "Bastia"
-trade_goods = naval_supplies
+capital = "Nuoro"
+trade_goods = wine
 hre = yes
-base_tax = 4
-base_production = 3
-base_manpower = 4
-is_city = yes 
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
 
 discovered_by = eastern
 discovered_by = western
@@ -28,3 +28,6 @@ discovered_by = north_american
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+
+

@@ -1,17 +1,17 @@
-#230 - Bastia
+#228 - Sassari
 
-add_core = FR2
-owner = FR2
-controller = FR2
-culture = corsican
+add_core = ITA
+owner = ITA
+controller = ITA
+culture = sardinian
 religion = catholic
-capital = "Bastia"
-trade_goods = naval_supplies
+capital = "Sassari"
+trade_goods = wine
 hre = yes
-base_tax = 4
-base_production = 3
-base_manpower = 4
-is_city = yes 
+base_tax = 8
+base_production = 5
+base_manpower = 3
+is_city = yes
 
 discovered_by = eastern
 discovered_by = western
