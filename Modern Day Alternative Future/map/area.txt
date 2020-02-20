@@ -10,8 +10,23 @@ extremadura_area = {
 beieras_area = { 
 4971 4972 4975 4976 
 }
-corsica_sardinia_area = {
-127 227 228 229 230 231 
+corsica_area = {
+127 229 231 
+}
+sardinia_area = {
+227 228 230
+}
+gascogne_area = { 
+173 175 176 5014
+}
+catalonia_area = {
+212 213 5013 3138 3139
+}
+languedoc_area = { 
+197 200 2598 4514
+}
+Midi_Pyrenees_area = {
+196
 }
 #Sea Areas:
 #No restriction on size.
@@ -359,14 +374,6 @@ guyenne_area = { #3
 174 194 4245
 }
 
-pyrenees_area = { #3
-173 175 176 5013
-}
-
-languedoc_area = { #3
-196 200 2598 4514
-}
-
 bourgogne_area = { #5
 	color = { 144 0 32 }
 	191 192 193 1877 4515
@@ -430,10 +437,6 @@ frisia_area = {
 
 aragon_area = { #4
 211 214 3137 4700
-}
-
-catalonia_area = { #4
-197 212 213 3138 3139
 }
 
 valencia_area = { #3

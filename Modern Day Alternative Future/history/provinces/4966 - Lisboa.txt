@@ -9,9 +9,10 @@ hre = yes
 base_tax = 13
 base_production = 10
 base_manpower = 10
-trade_goods = naval_supplies
+trade_goods = electronics
 capital = "Lisboa"
 is_city = yes
+center_of_trade = 2
 
 discovered_by = eastern
 discovered_by = western

@@ -3531,7 +3531,7 @@ french	= {
 	burgundian = {
 		primary = BUR
 	}
-	occitain = {
+	occitan = {
 		primary = PRO
 	}
 	wallonian = {

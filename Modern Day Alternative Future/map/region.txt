@@ -23,7 +23,7 @@ france_region = {
 		ile_de_france_area
 		loire_area
 		bourgogne_area
-		pyrenees_area
+		gascogne_area
 		poitou_area
 	}
 }
@@ -67,7 +67,8 @@ italy_region = {
 		piedmont_area
 		tuscany_area
 		liguria_area
-		corsica_sardinia_area
+		sardinia_area
+		corsica_area
 		sicily_area
 		naples_area
 		calabria_area
