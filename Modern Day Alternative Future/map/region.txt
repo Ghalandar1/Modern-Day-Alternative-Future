@@ -25,6 +25,7 @@ france_region = {
 		bourgogne_area
 		gascogne_area
 		poitou_area
+		midi_pyrenees_area
 	}
 }
 

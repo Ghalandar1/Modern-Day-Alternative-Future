@@ -25,8 +25,8 @@ catalonia_area = {
 languedoc_area = { 
 197 200 2598 4514
 }
-Midi_Pyrenees_area = {
-196
+midi_pyrenees_area = {
+196 4245 5016 5017
 }
 #Sea Areas:
 #No restriction on size.
@@ -371,7 +371,7 @@ poitou_area = { #4
 }
 
 guyenne_area = { #3
-174 194 4245
+174 194 
 }
 
 bourgogne_area = { #5

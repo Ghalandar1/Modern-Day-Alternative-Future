@@ -3,7 +3,7 @@
 add_core = FR2
 owner = FR2
 controller = FR2
-culture = basque
+culture = lapurdian
 religion = catholic
 capital = "Bayonne"
 trade_goods = wine
