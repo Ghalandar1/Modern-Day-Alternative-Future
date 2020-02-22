@@ -1,17 +1,19 @@
-#164 - Naxos
+#5101 - Pieria
 
 owner = GRE
 controller = GRE
 culture = greek
 religion = orthodox
-capital = "Naxos"
-trade_goods = wine
+capital = "Katerini"
+trade_goods = grain
 hre = yes
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 3
+base_production = 4
+base_manpower = 3
 is_city = yes
+fort_15th = yes
 add_core = GRE
+center_of_trade = 2
 
 discovered_by = eastern
 discovered_by = western

@@ -1,17 +1,17 @@
-#164 - Naxos
+#3192 - Corinthia
 
 owner = GRE
 controller = GRE
+add_core = GRE
 culture = greek
 religion = orthodox
-capital = "Naxos"
+capital = "Corinth"
 trade_goods = wine
 hre = yes
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 4
+base_production = 4
+base_manpower = 3
 is_city = yes
-add_core = GRE
 
 discovered_by = eastern
 discovered_by = western
