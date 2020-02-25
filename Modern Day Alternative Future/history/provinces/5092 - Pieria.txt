@@ -1,17 +1,19 @@
-#5138 Faro
+#5092 - Pieria
 
-add_core = POR		
-owner = POR
-controller = POR
-culture = portugese
-religion = catholic
+owner = GRE
+controller = GRE
+culture = greek
+religion = orthodox
+capital = "Katerini"
+trade_goods = grain
 hre = yes
-base_tax = 4
+base_tax = 3
 base_production = 4
 base_manpower = 3
-trade_goods = fish
-capital = "Faro"
 is_city = yes
+fort_15th = yes
+add_core = GRE
+center_of_trade = 2
 
 discovered_by = eastern
 discovered_by = western
